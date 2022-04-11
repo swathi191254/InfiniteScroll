@@ -16,6 +16,7 @@
       await fetch(`https://randomuser.me/api/?page=${page}&results=50`)
     ).json();
     return users;
+    console.log(users)
   }
 
   async function loadMoreUsers() {
